@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DCEE6A27E408C5006C8710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCEE6927E408C5006C8710 /* AppDelegate.swift */; };
+		38DCEE6C27E408C5006C8710 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCEE6B27E408C5006C8710 /* SceneDelegate.swift */; };
+		38DCEE6E27E408C5006C8710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCEE6D27E408C5006C8710 /* ViewController.swift */; };
+		38DCEE7127E408C5006C8710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DCEE6F27E408C5006C8710 /* Main.storyboard */; };
+		38DCEE7327E408C6006C8710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DCEE7227E408C6006C8710 /* Assets.xcassets */; };
+		38DCEE7627E408C6006C8710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DCEE7427E408C6006C8710 /* LaunchScreen.storyboard */; };
+		38DCEE8127E408C7006C8710 /* HekoWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCEE8027E408C7006C8710 /* HekoWorldTests.swift */; };
+		38DCEE8B27E408C7006C8710 /* HekoWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCEE8A27E408C7006C8710 /* HekoWorldUITests.swift */; };
+		38DCEE8D27E408C7006C8710 /* HekoWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DCEE8C27E408C7006C8710 /* HekoWorldUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DCEE7D27E408C7006C8710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DCEE5E27E408C5006C8710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DCEE6527E408C5006C8710;
+			remoteInfo = HekoWorld;
+		};
+		38DCEE8727E408C7006C8710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DCEE5E27E408C5006C8710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DCEE6527E408C5006C8710;
+			remoteInfo = HekoWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38DCEE6627E408C5006C8710 /* HekoWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HekoWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DCEE6927E408C5006C8710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38DCEE6B27E408C5006C8710 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38DCEE6D27E408C5006C8710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38DCEE7027E408C5006C8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38DCEE7227E408C6006C8710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38DCEE7527E408C6006C8710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38DCEE7727E408C6006C8710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DCEE7C27E408C7006C8710 /* HekoWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HekoWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DCEE8027E408C7006C8710 /* HekoWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HekoWorldTests.swift; sourceTree = "<group>"; };
+		38DCEE8627E408C7006C8710 /* HekoWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HekoWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DCEE8A27E408C7006C8710 /* HekoWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HekoWorldUITests.swift; sourceTree = "<group>"; };
+		38DCEE8C27E408C7006C8710 /* HekoWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HekoWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DCEE6327E408C5006C8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCEE7927E408C7006C8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCEE8327E408C7006C8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DCEE5D27E408C5006C8710 = {
+			isa = PBXGroup;
+			children = (
+				38DCEE6827E408C5006C8710 /* HekoWorld */,
+				38DCEE7F27E408C7006C8710 /* HekoWorldTests */,
+				38DCEE8927E408C7006C8710 /* HekoWorldUITests */,
+				38DCEE6727E408C5006C8710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DCEE6727E408C5006C8710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DCEE6627E408C5006C8710 /* HekoWorld.app */,
+				38DCEE7C27E408C7006C8710 /* HekoWorldTests.xctest */,
+				38DCEE8627E408C7006C8710 /* HekoWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DCEE6827E408C5006C8710 /* HekoWorld */ = {
+			isa = PBXGroup;
+			children = (
+				38DCEE6927E408C5006C8710 /* AppDelegate.swift */,
+				38DCEE6B27E408C5006C8710 /* SceneDelegate.swift */,
+				38DCEE6D27E408C5006C8710 /* ViewController.swift */,
+				38DCEE6F27E408C5006C8710 /* Main.storyboard */,
+				38DCEE7227E408C6006C8710 /* Assets.xcassets */,
+				38DCEE7427E408C6006C8710 /* LaunchScreen.storyboard */,
+				38DCEE7727E408C6006C8710 /* Info.plist */,
+			);
+			path = HekoWorld;
+			sourceTree = "<group>";
+		};
+		38DCEE7F27E408C7006C8710 /* HekoWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				38DCEE8027E408C7006C8710 /* HekoWorldTests.swift */,
+			);
+			path = HekoWorldTests;
+			sourceTree = "<group>";
+		};
+		38DCEE8927E408C7006C8710 /* HekoWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38DCEE8A27E408C7006C8710 /* HekoWorldUITests.swift */,
+				38DCEE8C27E408C7006C8710 /* HekoWorldUITestsLaunchTests.swift */,
+			);
+			path = HekoWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DCEE6527E408C5006C8710 /* HekoWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DCEE9027E408C7006C8710 /* Build configuration list for PBXNativeTarget "HekoWorld" */;
+			buildPhases = (
+				38DCEE6227E408C5006C8710 /* Sources */,
+				38DCEE6327E408C5006C8710 /* Frameworks */,
+				38DCEE6427E408C5006C8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HekoWorld;
+			productName = HekoWorld;
+			productReference = 38DCEE6627E408C5006C8710 /* HekoWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38DCEE7B27E408C7006C8710 /* HekoWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DCEE9327E408C7006C8710 /* Build configuration list for PBXNativeTarget "HekoWorldTests" */;
+			buildPhases = (
+				38DCEE7827E408C7006C8710 /* Sources */,
+				38DCEE7927E408C7006C8710 /* Frameworks */,
+				38DCEE7A27E408C7006C8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DCEE7E27E408C7006C8710 /* PBXTargetDependency */,
+			);
+			name = HekoWorldTests;
+			productName = HekoWorldTests;
+			productReference = 38DCEE7C27E408C7006C8710 /* HekoWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38DCEE8527E408C7006C8710 /* HekoWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DCEE9627E408C7006C8710 /* Build configuration list for PBXNativeTarget "HekoWorldUITests" */;
+			buildPhases = (
+				38DCEE8227E408C7006C8710 /* Sources */,
+				38DCEE8327E408C7006C8710 /* Frameworks */,
+				38DCEE8427E408C7006C8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DCEE8827E408C7006C8710 /* PBXTargetDependency */,
+			);
+			name = HekoWorldUITests;
+			productName = HekoWorldUITests;
+			productReference = 38DCEE8627E408C7006C8710 /* HekoWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DCEE5E27E408C5006C8710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					38DCEE6527E408C5006C8710 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					38DCEE7B27E408C7006C8710 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 38DCEE6527E408C5006C8710;
+					};
+					38DCEE8527E408C7006C8710 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 38DCEE6527E408C5006C8710;
+					};
+				};
+			};
+			buildConfigurationList = 38DCEE6127E408C5006C8710 /* Build configuration list for PBXProject "HekoWorld" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DCEE5D27E408C5006C8710;
+			productRefGroup = 38DCEE6727E408C5006C8710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DCEE6527E408C5006C8710 /* HekoWorld */,
+				38DCEE7B27E408C7006C8710 /* HekoWorldTests */,
+				38DCEE8527E408C7006C8710 /* HekoWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DCEE6427E408C5006C8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DCEE7627E408C6006C8710 /* LaunchScreen.storyboard in Resources */,
+				38DCEE7327E408C6006C8710 /* Assets.xcassets in Resources */,
+				38DCEE7127E408C5006C8710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCEE7A27E408C7006C8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCEE8427E408C7006C8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DCEE6227E408C5006C8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DCEE6E27E408C5006C8710 /* ViewController.swift in Sources */,
+				38DCEE6A27E408C5006C8710 /* AppDelegate.swift in Sources */,
+				38DCEE6C27E408C5006C8710 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCEE7827E408C7006C8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DCEE8127E408C7006C8710 /* HekoWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCEE8227E408C7006C8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DCEE8D27E408C7006C8710 /* HekoWorldUITestsLaunchTests.swift in Sources */,
+				38DCEE8B27E408C7006C8710 /* HekoWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DCEE7E27E408C7006C8710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DCEE6527E408C5006C8710 /* HekoWorld */;
+			targetProxy = 38DCEE7D27E408C7006C8710 /* PBXContainerItemProxy */;
+		};
+		38DCEE8827E408C7006C8710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DCEE6527E408C5006C8710 /* HekoWorld */;
+			targetProxy = 38DCEE8727E408C7006C8710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38DCEE6F27E408C5006C8710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DCEE7027E408C5006C8710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38DCEE7427E408C6006C8710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DCEE7527E408C6006C8710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DCEE8E27E408C7006C8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38DCEE8F27E408C7006C8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DCEE9127E408C7006C8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HekoWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.HekoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38DCEE9227E408C7006C8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HekoWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.HekoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38DCEE9427E408C7006C8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.HekoWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HekoWorld.app/HekoWorld";
+			};
+			name = Debug;
+		};
+		38DCEE9527E408C7006C8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.HekoWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HekoWorld.app/HekoWorld";
+			};
+			name = Release;
+		};
+		38DCEE9727E408C7006C8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.HekoWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HekoWorld;
+			};
+			name = Debug;
+		};
+		38DCEE9827E408C7006C8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.HekoWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HekoWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DCEE6127E408C5006C8710 /* Build configuration list for PBXProject "HekoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DCEE8E27E408C7006C8710 /* Debug */,
+				38DCEE8F27E408C7006C8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DCEE9027E408C7006C8710 /* Build configuration list for PBXNativeTarget "HekoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DCEE9127E408C7006C8710 /* Debug */,
+				38DCEE9227E408C7006C8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DCEE9327E408C7006C8710 /* Build configuration list for PBXNativeTarget "HekoWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DCEE9427E408C7006C8710 /* Debug */,
+				38DCEE9527E408C7006C8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DCEE9627E408C7006C8710 /* Build configuration list for PBXNativeTarget "HekoWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DCEE9727E408C7006C8710 /* Debug */,
+				38DCEE9827E408C7006C8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DCEE5E27E408C5006C8710 /* Project object */;
+}
