@@ -86,3 +86,4 @@ func countStrings(_ strings: [String]) -> [String: Int] {
 }
 
 print(countStrings(["hola", "hola", "chau"]))
+
